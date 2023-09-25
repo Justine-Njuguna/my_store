@@ -17,6 +17,15 @@ function App() {
   }, []) //never forget the array thing here because the console will keep looping and end up crashing our super duper nice server
 
   const renderCategories = () => {
+
+  // basically, this is an alternative looping method compared to the .map method
+  
+  //   const categories = []
+  //   for (let i = 0; i < results.length; i++) {
+  //     categories.push(<Category key={results[i].id} id={results[i].id} title={results.title} />)
+  //   }
+  //   return categories
+  // }
     return results.map( c => 
       <Category key={c.id} id={c.id} title={c.title} />
     )
@@ -30,7 +39,7 @@ function App() {
       <section>
         <nav>
           {
-            renderCategories()
+           results && renderCategories()
           }
         </nav>
         <article>
