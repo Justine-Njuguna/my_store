@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import Category from './components/category';
+
 
 function App() {
   const [results, setResults] = useState([])
@@ -14,13 +16,32 @@ function App() {
       })
   }, []) //never forget the array thing here because the console will keep looping and end up crashing our super duper nice server
 
+  const renderCategories = () => {
+    return results.map( c => 
+      <Category key={c.id} id={c.id} title={c.title} />
+    )
+  }
+
   //Here I have learnt how to use the map element to map through our json array, and the key which acts as a UID
   return (
-    <div className="App">
-      {results.map(d => (
-        <div key={d.id}>{d.title}</div>
-      ))}
-    </div>
+    <>
+    <header>My Store</header>
+
+      <section>
+        <nav>
+          {
+            renderCategories()
+          }
+        </nav>
+        <article>
+          main area
+        </article>
+      </section>
+
+      <footer>
+        footer
+      </footer>
+    </>
   );
 }
 
