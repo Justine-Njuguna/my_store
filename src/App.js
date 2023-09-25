@@ -27,7 +27,7 @@ function App() {
       })
   }
 
-
+//used to render categories
   const renderCategories = () => {
 
     return categories.map( c => 
