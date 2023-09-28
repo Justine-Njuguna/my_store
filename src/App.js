@@ -23,13 +23,6 @@ function App() {
       setProducts(responseObject)
     }
     fetchData()
-
-    fetch("http://localhost:3001/products?catId=" + id)
-      .then(Response => Response.json())
-      .then(data => {
-        console.log(data)
-        setProducts(data)
-      })
   }
 
 //used to render categories
