@@ -5,6 +5,9 @@ const fetcher = async (url) => {
 
     try {
     const response = await fetch(BASE_URL + url)
+    if (!response.ok) {
+        throw new Error(`HTTP Error ${response.status}`);
+    }
     const responseData = await response.json()
     responseObject.errorMessage = ''
     responseObject.data = responseData
