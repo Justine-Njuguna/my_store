@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Category_Product = ({ title, image, specs, features, price, stock }) => {
+const CategoryProduct = ({ title, image, specs, features, price, stock }) => {
   return (
-   <article>
+   <main>
     <div className='category-products-title'>
         {title}
     </div>
@@ -50,8 +50,8 @@ const Category_Product = ({ title, image, specs, features, price, stock }) => {
         </div>
     </aside>
 
-   </article>
+   </main>
   )
 }
 
-export default Category_Product
+export default CategoryProduct
