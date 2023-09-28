@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Category from './components/category';
 import { getCategories, getProducts } from './fetcher'
+import Category_product from './components/category_product';
 
 function App() {
   const [categories, setCategories] = useState({ errorMessage: '', data: [] })
