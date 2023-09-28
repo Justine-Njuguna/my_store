@@ -9,8 +9,11 @@ function App() {
 
   //I have learnt how to use the useEffect hook to and the fetch API to read data from the json file and return a promise that logs the data to the console
   React.useEffect(() => {
-      const data = fetcher("/categories")
+    const fetchData = async () => {
+      const data = await fetcher("/categories")
       setCategories(data)
+    }
+    fetchData()
   }, []) //never forget the array thing here because the console will keep looping and end up crashing our super duper nice server
 
   //this is an onCLick handler for altering the rendered UIi component, this handles the category when clicked
