@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Category from './components/category';
-
+import { fetcher } from './fetcher'
 
 function App() {
   const [categories, setCategories] = useState([])
@@ -9,12 +9,8 @@ function App() {
 
   //I have learnt how to use the useEffect hook to and the fetch API to read data from the json file and return a promise that logs the data to the console
   React.useEffect(() => {
-      fetch("http://localhost:3001/categories")
-      .then(Response => Response.json())
-      .then(data => {
-        console.log(data)
-        setCategories(data)
-      })
+      const data = fetcher("/categories")
+      setCategories(data)
   }, []) //never forget the array thing here because the console will keep looping and end up crashing our super duper nice server
 
   //this is an onCLick handler for altering the rendered UIi component, this handles the category when clicked
