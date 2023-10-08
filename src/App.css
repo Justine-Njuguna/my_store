@@ -80,13 +80,22 @@ footer {
  }
 
  .container-product-image-container img {
-  width: 100%;
-  height: 100%;
+  width: 474px;
+  height: 355px;
+ }
+
+ .category-product-details {
+  flex-grow: 1;
+  margin-left: 20px;
  }
 
  .category-product-info-header {
   display: flex;
+  flex-direction: column;
  }
+ .category-product-info-header > * {
+  margin-bottom: 10px; /* Add some spacing between the info elements */
+}
 
  .category-product-info-capacity h3,
  .category-product-info-features h3 {

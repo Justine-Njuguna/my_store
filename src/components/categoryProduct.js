@@ -9,11 +9,11 @@ const CategoryProduct = ({ title, image, specs, features, price, stock, dimensio
 
     <figure>
         <div className='category-product-image-container'>
-            <img src={`./assets/${image}`} alt='' />
+            <img src={`/category-images/${title}/${image}`} alt='' />
         </div>
     </figure>
 
-    <aside>
+    <aside className='category-product-details'>
         <div className='category-product-info-dimensions'>
             <h3>Dimensions</h3>
             <label>{ specs.dimensions}</label>
