@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-      <header>My Store</header>
+      <header>My Simple Web App</header>
       <section>
         <nav>
           {categories.errorMessage && <div>Error: {categories.errorMessage}</div> }

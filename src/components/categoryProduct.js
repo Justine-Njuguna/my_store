@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CategoryProduct = ({ title, image, specs, features, price, stock }) => {
+const CategoryProduct = ({ title, image, specs, features, price, stock, dimensions}) => {
   return (
    <main>
     <div className='category-products-title'>

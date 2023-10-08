@@ -1,11 +1,114 @@
 {
     "categories": [
-        { "id": 1, "title": "Fridges"},
-        { "id": 2, "title": "Kettles"},
-        { "id": 3, "title": "Televisions"}
+      { "id": 1, "title": "Fridges"},
+      { "id": 2, "title": "Kettles"},
+      { "id": 3, "title": "Televisions"},
+      { "id": 4, "title": "Microwaves"},
+      { "id": 5, "title": "Laptops"}
     ],
     "products": [
-        { "id": 1, "catId": 1, "title": "Beko White Fridge Freezer"},
-        { "id": 2, "catId": 1, "title": "Whirlpool White Fridge Freezer"}
+      {
+        "id": 1,
+        "catId": 1,
+        "title": "Beko White Fridge Freezer",
+        "price": 399.99,
+        "specs": {
+          "dimensions": "180x70x60 cm",
+          "capacity": "300 liters"
+        },
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "catId": 1,
+        "title": "Whirlpool White Fridge Freezer",
+        "price": 449.99,
+        "specs": {
+          "dimensions": "175x75x65 cm",
+          "capacity": "350 liters"
+        },
+        "stock": 15
+      },
+      {
+        "id": 3,
+        "catId": 2,
+        "title": "Electric Kettle",
+        "price": 29.99,
+        "specs": {
+          "dimensions": "20x20x15 cm"
+        },
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "catId": 2,
+        "title": "Stainless Steel Kettle",
+        "price": 39.99,
+        "specs": {
+          "dimensions": "25x25x20 cm"
+        },
+        "stock": 25
+      },
+      {
+        "id": 5,
+        "catId": 3,
+        "title": "Samsung 55 inch 4K TV",
+        "price": 799.99,
+        "specs": {
+          "dimensions": "125x80x10 cm"
+        },
+        "stock": 5
+      },
+      {
+        "id": 6,
+        "catId": 3,
+        "title": "Sony 65 inch OLED TV",
+        "price": 1499.99,
+        "specs": {
+          "dimensions": "140x85x5 cm"
+        },
+        "stock": 3
+      },
+      {
+        "id": 7,
+        "catId": 4,
+        "title": "Countertop Microwave",
+        "price": 99.99,
+        "specs": {
+          "dimensions": "50x40x30 cm"
+        },
+        "stock": 8
+      },
+      {
+        "id": 8,
+        "catId": 4,
+        "title": "Over-the-Range Microwave",
+        "price": 249.99,
+        "specs": {
+          "dimensions": "75x60x40 cm"
+        },
+        "stock": 12
+      },
+      {
+        "id": 9,
+        "catId": 5,
+        "title": "HP 15.6 inch Laptop",
+        "price": 899.99,
+        "specs": {
+          "dimensions": "38x25x2 cm"
+        },
+        "stock": 7
+      },
+      {
+        "id": 10,
+        "catId": 5,
+        "title": "Dell XPS 13 inch Laptop",
+        "price": 1299.99,
+        "specs": {
+          "dimensions": "30x20x1 cm"
+        },
+        "stock": 4
+      }
     ]
-}
+  }
+  
