@@ -12,6 +12,7 @@
         "catId": 1,
         "title": "Beko White Fridge Freezer",
         "price": 399.99,
+        "image": "Beko_white_fridge.jpg",
         "specs": {
           "dimensions": "180x70x60 cm",
           "capacity": "300 liters"
@@ -23,6 +24,7 @@
         "catId": 1,
         "title": "Whirlpool White Fridge Freezer",
         "price": 449.99,
+        "image":  "whirlpool_fridge.jpg",
         "specs": {
           "dimensions": "175x75x65 cm",
           "capacity": "350 liters"
