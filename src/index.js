@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ProductDetail } from './components/productDetail';
+import ProductDetail from './components/productDetail'
 import Checkout from './components/checkout'
 import Basket from './components/basket'
 
