@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ProductDetail } from './components/productDetail';
+import Checkout from './components/checkout'
+import Basket from './components/basket'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -13,6 +15,8 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path='basket' element={<Basket />} />
+      <Route path='checkout' element={<Checkout />}/>
       <Route path="products/:productId" element={<ProductDetail />} />
     </Routes>
     </BrowserRouter>
