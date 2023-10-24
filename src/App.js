@@ -36,6 +36,7 @@ function App() {
     return products.data.map(p => 
       <CategoryProduct 
         key={p.id}
+        id = {p.id}
         title={p.title}
         image={p.image}
         specs={p.specs}
