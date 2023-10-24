@@ -10,7 +10,7 @@ const CategoryProduct = ({ title, image, specs, features, price, stock, dimensio
 
     <figure>
         <div className='category-product-image-container'>
-            <img src={`/category-images/${title}/${image}`} alt='img' />
+            <img src={`/category-images/${title}/${image}`} alt='product_image' />
         </div>
     </figure>
 
