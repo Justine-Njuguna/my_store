@@ -17,7 +17,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path='basket' element={<Basket />} />
       <Route path='checkout' element={<Checkout />}/>
-      <Route path="products/:id" element={<ProductDetail />} />
+      <Route path="products/:productId" element={<ProductDetail />} />
     </Routes>
     </BrowserRouter>
  
