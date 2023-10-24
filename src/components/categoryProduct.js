@@ -30,7 +30,9 @@ const CategoryProduct = ({ title, image, specs, features, price, stock, dimensio
     <div className='category-product-info-features'>
         <h3>features</h3>
         <ul>
-        {features && features.map(f => <li key={f}>{f}</li>)}
+            {features?.map((f, i) => {
+                return <li key={`feature${i}`}>{f}</li>
+            })}
         </ul>
     </div>
     </aside>
