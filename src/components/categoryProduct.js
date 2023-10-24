@@ -5,6 +5,7 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock, dimen
   const navigate = useNavigate()
     return (
    <main>
+    <article>
     <div className='category-products-title'>
         <Link to={`/products/${id}`}>{title}</Link>
     </div>
@@ -53,7 +54,7 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock, dimen
             <button>Add to basket</button>
         </div>
     </aside>
-
+ </article>
    </main>
   )
 }
