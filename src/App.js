@@ -45,6 +45,7 @@ function App() {
         features = {p.features}
         price = {p.price}
         stock = {p.stock}
+        description = {p.description}
       />
     );
   }

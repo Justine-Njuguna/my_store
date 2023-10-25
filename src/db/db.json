@@ -1,116 +1,125 @@
 {
-    "categories": [
-      { "id": 1, "title": "Fridges"},
-      { "id": 2, "title": "Kettles"},
-      { "id": 3, "title": "Televisions"},
-      { "id": 4, "title": "Microwaves"},
-      { "id": 5, "title": "Laptops"}
-    ],
-    "products": [
-      {
-        "id": 1,
-        "catId": 1,
-        "title": "Beko White Fridge Freezer",
-        "price": 399.99,
-        "image": "Beko_white_fridge.jpg",
-        "specs": {
-          "dimensions": "180x70x60 cm",
-          "capacity": "300 liters"
-        },
-        "stock": 10
+  "categories": [
+    { "id": 1, "title": "Fridges"},
+    { "id": 2, "title": "Kettles"},
+    { "id": 3, "title": "Televisions"},
+    { "id": 4, "title": "Microwaves"},
+    { "id": 5, "title": "Laptops"}
+  ],
+  "products": [
+    {
+      "id": 1,
+      "catId": 1,
+      "title": "Beko White Fridge Freezer",
+      "price": 399.99,
+      "image": "Beko_white_fridge.jpg",
+      "specs": {
+        "dimensions": "180x70x60 cm",
+        "capacity": "300 liters"
       },
-      {
-        "id": 2,
-        "catId": 1,
-        "title": "Whirlpool White Fridge Freezer",
-        "price": 449.99,
-        "image":  "whirlpool_fridge.jpg",
-        "specs": {
-          "dimensions": "175x75x65 cm",
-          "capacity": "350 liters"
-        },
-        "stock": 15
+      "stock": 10,
+      "description": "The Beko White Fridge Freezer is a stylish and spacious appliance that complements any kitchen. With dimensions of 180x70x60 cm, it provides ample storage space with a capacity of 300 liters. The fridge freezer is designed to keep your food fresh and organized. Its sleek white finish adds a touch of elegance to your home."
+    },
+    {
+      "id": 2,
+      "catId": 1,
+      "title": "Whirlpool White Fridge Freezer",
+      "price": 449.99,
+      "image": "whirlpool_fridge.jpg",
+      "specs": {
+        "dimensions": "175x75x65 cm",
+        "capacity": "350 liters"
       },
-      {
-        "id": 3,
-        "catId": 2,
-        "title": "Electric Kettle",
-        "price": 29.99,
-        "specs": {
-          "dimensions": "20x20x15 cm"
-        },
-        "stock": 20
+      "stock": 15,
+      "description": "The Whirlpool White Fridge Freezer is a high-quality appliance known for its reliability and performance. Measuring 175x75x65 cm, it offers a generous capacity of 350 liters, providing ample storage for your groceries. The fridge freezer is designed with precision to maintain optimal temperature levels, ensuring your food stays fresh for longer."
+    },
+    {
+      "id": 3,
+      "catId": 2,
+      "title": "Electric Kettle",
+      "price": 29.99,
+      "specs": {
+        "dimensions": "20x20x15 cm"
       },
-      {
-        "id": 4,
-        "catId": 2,
-        "title": "Stainless Steel Kettle",
-        "price": 39.99,
-        "specs": {
-          "dimensions": "25x25x20 cm"
-        },
-        "stock": 25
+      "stock": 20,
+      "description": "The Electric Kettle is a compact and efficient kitchen appliance perfect for heating water quickly. With dimensions of 20x20x15 cm, it fits seamlessly into any kitchen. This kettle is designed for ease of use, making it ideal for daily tasks like preparing tea or coffee. Its sleek design and functionality make it a must-have for every household."
+    },
+    {
+      "id": 4,
+      "catId": 2,
+      "title": "Stainless Steel Kettle",
+      "price": 39.99,
+      "specs": {
+        "dimensions": "25x25x20 cm"
       },
-      {
-        "id": 5,
-        "catId": 3,
-        "title": "Samsung 55 inch 4K TV",
-        "price": 799.99,
-        "specs": {
-          "dimensions": "125x80x10 cm"
-        },
-        "stock": 5
+      "stock": 25,
+      "description": "The Stainless Steel Kettle is a durable and stylish addition to your kitchen. Its compact size of 25x25x20 cm makes it easy to store, while its sleek stainless steel finish adds a touch of elegance to your countertop. This kettle is designed for efficient and rapid boiling, making it perfect for your morning beverages."
+    },
+    {
+      "id": 5,
+      "catId": 3,
+      "title": "Samsung 55 inch 4K TV",
+      "price": 799.99,
+      "specs": {
+        "dimensions": "125x80x10 cm"
       },
-      {
-        "id": 6,
-        "catId": 3,
-        "title": "Sony 65 inch OLED TV",
-        "price": 1499.99,
-        "specs": {
-          "dimensions": "140x85x5 cm"
-        },
-        "stock": 3
+      "stock": 5,
+      "description": "Experience cinematic brilliance with the Samsung 55 inch 4K TV. Boasting a stunning display and a sleek design, this TV is a centerpiece for any living room. With dimensions of 125x80x10 cm, it offers a visual feast in ultra-high definition. Whether you're watching movies, gaming, or streaming, this TV delivers an immersive entertainment experience."
+    },
+    {
+      "id": 6,
+      "catId": 3,
+      "title": "Sony 65 inch OLED TV",
+      "price": 1499.99,
+      "specs": {
+        "dimensions": "140x85x5 cm"
       },
-      {
-        "id": 7,
-        "catId": 4,
-        "title": "Countertop Microwave",
-        "price": 99.99,
-        "specs": {
-          "dimensions": "50x40x30 cm"
-        },
-        "stock": 8
+      "stock": 3,
+      "description": "Elevate your home entertainment with the Sony 65 inch OLED TV. Featuring cutting-edge OLED technology, this TV delivers stunning visuals with deep blacks and vibrant colors. Its ultra-slim design with dimensions of 140x85x5 cm seamlessly blends with any decor. Immerse yourself in a world of captivating visuals and crystal-clear sound."
+    },
+    {
+      "id": 7,
+      "catId": 4,
+      "title": "Countertop Microwave",
+      "price": 99.99,
+      "specs": {
+        "dimensions": "50x40x30 cm"
       },
-      {
-        "id": 8,
-        "catId": 4,
-        "title": "Over-the-Range Microwave",
-        "price": 249.99,
-        "specs": {
-          "dimensions": "75x60x40 cm"
-        },
-        "stock": 12
+      "stock": 8,
+      "description": "The Countertop Microwave is a versatile kitchen companion that simplifies meal preparation. With dimensions of 50x40x30 cm, it fits perfectly on your countertop. This microwave offers multiple cooking options and adjustable power levels for customized cooking. Its user-friendly interface and spacious interior make it a valuable addition to any kitchen."
+    },
+    {
+      "id": 8,
+      "catId": 4,
+      "title": "Over-the-Range Microwave",
+      "price": 249.99,
+      "specs": {
+        "dimensions": "75x60x40 cm"
       },
-      {
-        "id": 9,
-        "catId": 5,
-        "title": "HP 15.6 inch Laptop",
-        "price": 899.99,
-        "specs": {
-          "dimensions": "38x25x2 cm"
-        },
-        "stock": 7
+      "stock": 12,
+      "description": "Upgrade your kitchen with the Over-the-Range Microwave. This powerful appliance combines convenience with style. With dimensions of 75x60x40 cm, it integrates seamlessly above your stove. It offers a range of advanced features for precise cooking and reheating. Say goodbye to cluttered countertops and enjoy the streamlined design of this microwave."
+    },
+    {
+      "id": 9,
+      "catId": 5,
+      "title": "HP 15.6 inch Laptop",
+      "price": 899.99,
+      "specs": {
+        "dimensions": "38x25x2 cm"
       },
-      {
-        "id": 10,
-        "catId": 5,
-        "title": "Dell XPS 13 inch Laptop",
-        "price": 1299.99,
-        "specs": {
-          "dimensions": "30x20x1 cm"
-        },
-        "stock": 4
-      }
-    ]
-  }
-  
+      "stock": 7,
+      "description": "Experience unparalleled performance with the HP 15.6 inch Laptop. Powered by cutting-edge technology, this laptop is designed to meet all your computing needs. With dimensions of 38x25x2 cm, it strikes the perfect balance between portability and functionality. Whether for work or leisure, this laptop delivers a seamless and efficient computing experience."
+    },
+    {
+      "id": 10,
+      "catId": 5,
+      "title": "Dell XPS 13 inch Laptop",
+      "price": 1299.99,
+      "specs": {
+        "dimensions": "30x20x1 cm"
+      },
+      "stock": 4,
+      "description": "Unleash your productivity with the Dell XPS 13 inch Laptop. Crafted for performance and style, this laptop redefines excellence. With dimensions of 30x20x1 cm, it offers a compact form factor without compromising on power. Elevate your workflow with the stunning display and lightning-fast processing capabilities of this Dell masterpiece."
+    }    
+  ]
+}

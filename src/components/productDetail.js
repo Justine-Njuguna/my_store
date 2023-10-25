@@ -14,7 +14,7 @@ const ProductDetail = () => {
     }
     fetchData()
   }, [productId]) //data fetch
-  console.log(product.data.specs)
+  
 
   return (
     <article>
@@ -34,12 +34,12 @@ const ProductDetail = () => {
             <label>{product.data.specs.dimensions}</label>
         </div>
 
-        {product.data.specs.capacity &&
+       
         <div className='category-product-info-capacity'>
             <h3>Capacity</h3>
             <label>{product.data.specs.capacity}</label>
         </div>
-    }
+    
 
     <div className='category-product-info-features'>
         <h3>features</h3>
@@ -65,6 +65,11 @@ const ProductDetail = () => {
             <button>Add to basket</button>
         </div>
     </aside>
+
+    <div>
+        <p>{product.data.description}</p>
+    </div>
+
  </article>  )
 
 
