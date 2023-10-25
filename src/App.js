@@ -35,14 +35,16 @@ function App() {
   const renderProducts = () => {
     return products.data.map(p => 
       <CategoryProduct 
-        key={p.id}
+        key = {p.id}
         id = {p.id}
-        title={p.title}
-        image={p.image}
-        specs={p.specs}
-        features={p.features}
-        price={p.price}
-        stock={p.stock}
+        title = {p.title}
+        image = {p.image}
+        specs = {p.specs}
+        dimensions = {p.specs.dimensions}
+        capacity = {p.specs.capacity}
+        features = {p.features}
+        price = {p.price}
+        stock = {p.stock}
       />
     );
   }

@@ -27,7 +27,7 @@ const ProductDetail = () => {
             <img src={`/category-images/${product.data.image}`} alt='product_image' />
         </div>
     </figure>
-{/* 
+
     <aside className='category-product-details'>
         <div className='category-product-info-dimensions'>
             <h3>Dimensions</h3>
@@ -49,7 +49,7 @@ const ProductDetail = () => {
             })}
         </ul>
     </div>
-    </aside> */}
+    </aside>
 
     <aside className='category-product-finance'>
         <div className='category-product-finance-price'>
