@@ -91,13 +91,26 @@ footer {
 
  .category-product-info-header {
   display: flex;
-  flex-direction: column;
  }
  .category-product-info-header > * {
   margin-bottom: 10px; /* Add some spacing between the info elements */
 }
 
+.category-product-info-finance-price {
+  color: darkslategray;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.category-product-info-dimensions,
+.category-product-info-capacity {
+  display: flex;
+  flex-direction: column;
+}
+
  .category-product-info-capacity h3,
+ .category-product-info-dimensions h3,
  .category-product-info-features h3 {
   color: darkslategray;
   font-size: 1rem;
