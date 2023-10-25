@@ -56,7 +56,7 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock, dimen
         <h3>Features</h3>
         <ul>
             {features?.map((f, i) => {
-                return <li key={`feature${i}`}>{f}</li>
+                return <li key={`features${i}`}>{f}</li>
             })}
         </ul>
     </div>

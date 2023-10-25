@@ -89,8 +89,12 @@ footer {
   margin-left: 20px;
  }
 
- .category-product-info-header {
-  display: flex;
+ .category-product-info-header h3{
+    color: darkslategray;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
  }
  .category-product-info-header > * {
   margin-bottom: 10px; /* Add some spacing between the info elements */
@@ -134,10 +138,6 @@ footer {
   font-weight: bold;
   display: flex;
   flex-direction: column;
- }
-
- .category-product-info-stock {
-  padding-bottom: 5px;
  }
 
  .category-product-action {
