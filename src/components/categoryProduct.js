@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 import { Link, useNavigate } from 'react-router-dom'
 
 const CategoryProduct = ({id, title, image, specs, features, price, stock, dimensions}) => {
