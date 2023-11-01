@@ -2,28 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link, useNavigate } from 'react-router-dom'
 
-const ProductTitle = styled.div`
-grid-column: 1 / span 3;
-color: darkslategray;
-font-weight: bold;
-font-size: 1.5rem;
-padding-left: 10px;
-`
-
-const ProductImageContainer = styled.div `
-    padding: 10px;
-    width: 60%;
-`
-
-const ProductImageContainerImage = styled.img `
-width: 474px;
-height: 355px;
-`
-
-const ProductInfo = styled.div `
-    display: flex;
-    flex-direction: column;
-`
 
 const CategoryProduct = ({id, title, image, specs, features, price, stock, dimensions}) => {
   const navigate = useNavigate()
@@ -82,3 +60,27 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock, dimen
 }
 
 export default CategoryProduct
+
+
+const ProductTitle = styled.div`
+grid-column: 1 / span 3;
+color: darkslategray;
+font-weight: bold;
+font-size: 1.5rem;
+padding-left: 10px;
+`
+
+const ProductImageContainer = styled.div `
+    padding: 10px;
+    width: 60%;
+`
+
+const ProductImageContainerImage = styled.img `
+width: 474px;
+height: 355px;
+`
+
+const ProductInfo = styled.div `
+    display: flex;
+    flex-direction: column;
+`
